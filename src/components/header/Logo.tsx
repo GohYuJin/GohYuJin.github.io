@@ -11,7 +11,7 @@ export default function Logo() {
         className={css`
           text-decoration: none;
         `}
-        to="/portfolio"
+        to="/"
       >
         {/* <span className={logoStyle}>CG</span> */}
         <Avatar
