@@ -66,12 +66,11 @@ function Wrapper() {
 function App() {
   return (
     <Routes>
-      <Route path="/portfolio" element={<Wrapper />}>
         <Route index element={<LandingPage />} />
         <Route path="projects" element={<ProjectsPage />} />
         <Route path="projects/:name" element={<ProjectDetailsPage />} />
         <Route path="about" element={<AboutPage />} />
-      </Route>
+      
     </Routes>
   );
 }

@@ -36,7 +36,7 @@ export default function Header({ theme, toggleTheme }: Props) {
 
         <ul className={navItemStyle}>
           <li>
-            <Link to="/portfolio/about">
+            <Link to="/about">
               <Typography
                 variant="button"
                 component="a"
@@ -47,7 +47,7 @@ export default function Header({ theme, toggleTheme }: Props) {
             </Link>
           </li>
           <li>
-            <Link to="/portfolio/projects">
+            <Link to="/projects">
               <Typography
                 variant="button"
                 component="a"
@@ -113,7 +113,7 @@ export default function Header({ theme, toggleTheme }: Props) {
               `}
             >
               <ListItem>
-                <Link to="/portfolio/about" onClick={toggleModal}>
+                <Link to="/about" onClick={toggleModal}>
                   <Typography
                     variant="button"
                     component="a"
@@ -124,7 +124,7 @@ export default function Header({ theme, toggleTheme }: Props) {
                 </Link>
               </ListItem>
               <ListItem>
-                <Link to="/portfolio/projects" onClick={toggleModal}>
+                <Link to="/projects" onClick={toggleModal}>
                   <Typography
                     variant="button"
                     component="a"

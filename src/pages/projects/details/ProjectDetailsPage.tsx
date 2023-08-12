@@ -212,7 +212,7 @@ export default function ProjectDetailsPage() {
               onClick={smoothScrollUp}
             >
               <ThemedLink
-                to={`/portfolio/projects/${
+                to={`/projects/${
                   projectsData[dataIndex - 1].innerName
                 }`}
               >
@@ -256,7 +256,7 @@ export default function ProjectDetailsPage() {
           `}
         >
           <ThemedIconButton>
-            <ThemedLink to={`/portfolio/projects`}>
+            <ThemedLink to={`/projects`}>
               <GridViewIcon />
             </ThemedLink>
           </ThemedIconButton>
@@ -276,7 +276,7 @@ export default function ProjectDetailsPage() {
               onClick={smoothScrollUp}
             >
               <ThemedLink
-                to={`/portfolio/projects/${
+                to={`/projects/${
                   projectsData[dataIndex + 1].innerName
                 }`}
               >

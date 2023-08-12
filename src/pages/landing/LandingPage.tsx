@@ -60,7 +60,7 @@ export default function LandingPage() {
 
       <section id="getting-around">
         <NavigateButton
-          link="/portfolio/about"
+          link="/about"
           overText="Check it out!"
           underText="My interests and hobbies"
         />

@@ -336,7 +336,7 @@ export default function AboutPage() {
        **/}
       <section id="navigate-to-projects">
         <NavigateButton
-          link="/portfolio/projects"
+          link="/projects"
           overText="Look deeper 👀"
           underText="See my projects"
         />

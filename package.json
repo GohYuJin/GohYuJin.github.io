@@ -1,7 +1,7 @@
 {
   "name": "yujin-portfolio",
   "version": "0.1.0",
-  "homepage": "http://gohyujin.github.io/portfolio/",
+  "homepage": "http://gohyujin.github.io/",
   "private": true,
   "dependencies": {
     "@emotion/css": "^11.7.1",
