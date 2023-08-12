@@ -32,6 +32,22 @@ export const projectsData: projectData[] = [
         tags: ["Arduino", "Computer Aided Design", "Autodesk Fusion 360", "Hardware", "C Programming"],
         link: "https://github.com/GohYuJin/BAC-Watcher",
     },
+    {
+        name: "Trash It!",
+        innerName: "trash-it",
+        shortDescription: "Game developed with Rasberry PI and vibration sensor to encourage recycling",
+        description:
+            "Game developed to encourage kids to recycle. Users are expected to throw recyclables into a hole from a distance " +
+            "where a moving robot will try to block it to increase the difficulty. Scores will be uploaded to social media to encourage competition. " +
+            "In this project I developed the GUI application, coded the Raspbeery PI and robot for game logic. "
+        ,
+        completionDate: "2017",
+        teaserSrc: "TrashIt.png",
+        previewSrc: "TrashItPoster.jpg",
+        otherSrc: [],
+        tags: ["Python", "App Development", "Raspberry PI", "Hardware"],
+        link: "https://github.com/GohYuJin/TrashIt",
+    },
   {
     name: "Whack a mole",
     innerName: "whack-a-mole-mojo",
@@ -99,7 +115,7 @@ export const projectsData: projectData[] = [
     {
         name: "DSO Reconaissance Bot",
         innerName: "reconaissance-bot",
-        shortDescription: "Reconaissance robot developed as part of SUTD industry-capstone project with DSO.",
+        shortDescription: "Computer Vision enabled reconaissance robot developed as part of SUTD's industry-capstone project with DSO.",
         description:
             "Counter Terrorism Urban oberations are likely to have high casualty rates as enemies control the element of surprise. " +
             "In our capstone project, we developed a reconaissance robot that is able to be deployed in place of human responders to gain"  +
