@@ -46,4 +46,20 @@ export const projectsData: projectData[] = [
     tags: ["Artificial Intelligence", "Computer Vision", "Natural Language Processing", "Amazon Web Services"],
       link: "https://github.com/GohYuJin/DL_Image_Captioning",
   },
+    {
+        name: "Blood Alcohol Content Detection Watch",
+        innerName: "alcohol-watch",
+        shortDescription: "Blood Alcohol Content detection watch designed in SUTD",
+        description:
+            "Alcohol intoxication can put a person's life at risk. However, many are unable to determine their thresholds while drinking." + 
+            "The blood alcohol detection watch helps to accurately measure when a person is at risk of alcohol poisoning and drunk driving." +
+            "In this project I designed, 3D printed the watch, coded the software and soldered the circuit into a portable and thin form factor."
+        ,
+        completionDate: "2016",
+        teaserSrc: "Watch.jpg",
+        previewSrc: "Watch-2.gif",
+        otherSrc: [],
+        tags: ["Arduino", "Computer Aided Design", "Autodesk Fusion 360", "Hardware"],
+        link: "https://github.com/GohYuJin/",
+    },
 ];
