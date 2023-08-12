@@ -59,7 +59,7 @@ export const projectsData: projectData[] = [
         teaserSrc: "Watch.jpg",
         previewSrc: "Watch-2.gif",
         otherSrc: [],
-        tags: ["Arduino", "Computer Aided Design", "Autodesk Fusion 360", "Hardware"],
+        tags: ["Arduino", "Computer Aided Design", "Autodesk Fusion 360", "Hardware", "C Programming"],
         link: "https://github.com/GohYuJin/",
     },
 ];
