@@ -334,11 +334,11 @@ export default function AboutPage() {
       {/**
        * todo: add some achievements when I finally do something noteworthy with my life
        **/}
-      <section id="navigate-to-projects">
+      <section id="navigate-to-testimonials">
         <NavigateButton
-          link="/projects"
-          overText="Look deeper 👀"
-          underText="See my projects"
+          link="/testimonials"
+          overText="Hear from others 👂"
+          underText="See my testimonials"
         />
       </section>
     </Container>

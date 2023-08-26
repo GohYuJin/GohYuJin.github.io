@@ -47,6 +47,17 @@ export default function Header({ theme, toggleTheme }: Props) {
             </Link>
           </li>
           <li>
+            <Link to="/testimonials">
+              <Typography
+                variant="button"
+                component="a"
+                color="var(--text-main)"
+              >
+                TESTIMONIALS
+              </Typography>
+            </Link>
+          </li>
+          <li>
             <Link to="/projects">
               <Typography
                 variant="button"

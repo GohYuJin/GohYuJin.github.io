@@ -3,6 +3,7 @@ import Footer from "components/footer/Footer";
 import AboutPage from "pages/about/AboutPage";
 import LandingPage from "pages/landing/LandingPage";
 import ProjectsPage from "pages/projects/ProjectsPage";
+import TestimonialsPage from "pages/testimonials/TestimonialsPage"
 import React from "react";
 import { Routes, Route, Outlet } from "react-router-dom";
 import "./stars.css";
@@ -68,6 +69,7 @@ function App() {
     <Routes>
       <Route path="/" element={<Wrapper />}>
         <Route index element={<LandingPage />} />
+        <Route path="testimonials" element={<TestimonialsPage />} />
         <Route path="projects" element={<ProjectsPage />} />
         <Route path="projects/:name" element={<ProjectDetailsPage />} />
         <Route path="about" element={<AboutPage />} />

@@ -28,8 +28,8 @@ export const projectsData: projectData[] = [
         completionDate: "2016",
         teaserSrc: "Watch.jpg",
         previewSrc: "Watch-2.gif",
-        otherSrc: [],
-        tags: ["Arduino", "Computer Aided Design", "Autodesk Fusion 360", "Hardware", "C Programming"],
+        otherSrc: ["Watch-3.png"],
+        tags: ["Arduino", "Computer Aided Design", "Autodesk Fusion 360", "Hardware", "C"],
         link: "https://github.com/GohYuJin/BAC-Watcher",
     },
     {
@@ -37,7 +37,7 @@ export const projectsData: projectData[] = [
         innerName: "trash-it",
         shortDescription: "Game developed with Rasberry PI and vibration sensor to encourage recycling",
         description:
-            "Game developed to encourage kids to recycle. Users are expected to throw recyclables into a hole from a distance " +
+            "Kids game developed to encourage kids to recycle. Users are expected to throw recyclables into a hole from a distance " +
             "where a moving robot will try to block it to increase the difficulty. Scores will be uploaded to social media to encourage competition. " +
             "In this project I developed the GUI application, coded the Raspbeery PI and robot for game logic. "
         ,
@@ -75,7 +75,7 @@ export const projectsData: projectData[] = [
         teaserSrc: "LIFR-1.png",
         previewSrc: "LIFR-1.png",
         otherSrc: [],
-        tags: ["Android App", "Java Programming", "Web Scraping"],
+        tags: ["Android App", "Java", "Web Scraping"],
         link: "https://github.com/GohYuJin/SUTDApp1D",
     },
     {
@@ -109,7 +109,7 @@ export const projectsData: projectData[] = [
     teaserSrc: "DL_Caption_Example.gif",
     previewSrc: "DL_Caption_Example.gif",
     otherSrc: [],
-    tags: ["Artificial Intelligence", "Computer Vision", "Natural Language Processing", "Amazon Web Services"],
+    tags: ["Artificial Intelligence", "Computer Vision", "Natural Language Processing", "Python"],
       link: "https://github.com/GohYuJin/DL_Image_Captioning",
     },
     {
@@ -126,8 +126,8 @@ export const projectsData: projectData[] = [
         ,
         completionDate: "2019",
         teaserSrc: "CapstoneBot.jpg",
-        previewSrc: "CapstoneVision-1.png",
-        otherSrc: [],
+        previewSrc: "CapstoneBot.jpg",
+        otherSrc: ["Terror.png", "CapstoneVision-2.png"],
         tags: ["Hardware", "Computer Vision", "App Development"],
         link: "https://github.com/GohYuJin/devastator",
     },
