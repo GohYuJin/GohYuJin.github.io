@@ -135,6 +135,17 @@ export default function Header({ theme, toggleTheme }: Props) {
                 </Link>
               </ListItem>
               <ListItem>
+                <Link to="/testimonials" onClick={toggleModal}>
+                  <Typography
+                    variant="button"
+                    component="a"
+                    color="var(--text-main)"
+                  >
+                    TESTIMONIALS
+                  </Typography>
+                </Link>
+              </ListItem>
+              <ListItem>
                 <Link to="/projects" onClick={toggleModal}>
                   <Typography
                     variant="button"
