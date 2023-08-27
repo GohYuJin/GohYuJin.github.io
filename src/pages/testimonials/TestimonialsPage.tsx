@@ -4,6 +4,7 @@ import {
   Card,
   CardContent,
   CardMedia,
+  CardHeader,
   Container,
   Grid,
   Stack,
@@ -83,20 +84,31 @@ export default function TestimonialsPage() {
                     "@media screen and (max-width: 600px)": {
                       width: "74vw",
                     },
-                    display: 'flex',
                     borderRadius: 3,
                     boxShadow: '1px 2px 9px #141414'
                   }}
                 >
-                  <CardMedia component="img" sx={{ width: 100, height: 100, borderRadius: 50, marginTop: 5, marginBottom: 5, marginLeft: 2, }} src={item.image} alt="Profile Image" />
-                  <CardContent>
-                    <Link href={item.link} color="inherit" variant="h6">
-                      {item.name}
-                    </Link>
-                    <Typography fontStyle="italic">
+                  <CardHeader
+                    avatar={<img
+                      alt="academic"
+                      src={item.image}
+                      className={css`
+                        height: 48px;
+                        margin-left: auto;
+                        border-radius: 50px;
+                      `}
+                    />}
+                    title={
+                      <Link href={item.link} color="inherit" variant="h6">
+                        {item.name}
+                      </Link>
+                    }
+                    subheader={<Typography fontStyle="italic">
                       {item.role}
-                    </Typography>
-                    <Typography paragraph marginTop={1} marginBottom={0}>
+                    </Typography>}
+                  />
+                  <CardContent>
+                    <Typography paragraph marginTop={0} marginBottom={0}>
                       {item.review}
                     </Typography>
                   </CardContent>
