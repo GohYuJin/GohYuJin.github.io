@@ -52,9 +52,9 @@ export const recommendationData: recommendation[] = [
     role: "CISSP | GCIH | ICS/OT Cybersecurity",
     year: "August 23, 2018",
     review: "Yu Jin is one of the most outstanding, talented individuals I have come across. \
-              He’s an extremely fast learner - having mastered java and python before commencing his studies at SUTD,\
+              He's an extremely fast learner - having mastered java and python before commencing his studies at SUTD,\
               he served the role of a teaching assistant under our common mentor, where he taught \
-              Python, Tableau, Java, WEKA and R to a class of Master students. He’s one of the rare people you’d come\
+              Python, Tableau, Java, WEKA and R to a class of Master students. He's one of the rare people you’d come\
               across that simply excels at every thing he does. \
               Someone you can definitely rely on - an asset to any team!",
     image: "https://media.licdn.com/dms/image/C4D03AQHPIluWwlCnJQ/profile-displayphoto-shrink_100_100/0/1655404958714?e=1698278400&v=beta&t=89aYc1zEfLeq2duyngMfCCzrAK7MRyPgGgDcPPSrdls",
