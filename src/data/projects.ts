@@ -68,6 +68,20 @@ export const projectsData: projectData[] = [
     link: "https://github.com/GohYuJin/DL_Image_Captioning",
   },
   {
+    name: "Spot the difference",
+    innerName: "spot-the-difference",
+    shortDescription: "Simple spot the difference application",
+    description:
+      "Simple spot the difference application game that I helped develop for a friend to perform research" +
+      "on assessing the speed of participants in finding objects of interest.",
+    completionDate: "2022",
+    teaserSrc: "SpotTheDiff.gif",
+    previewSrc: "SpotTheDiff.gif",
+    otherSrc: [],
+    tags: ["App Development"],
+    link: "https://github.com/GohYuJin/SpotTheDiffApp",
+  },
+  {
       name: "SUTD Events Mobile App",
       innerName: "event-scheduler-app",
       shortDescription: "SUTD Scheduler App that aggregates all events in the school displayed on one app",
@@ -82,6 +96,36 @@ export const projectsData: projectData[] = [
       otherSrc: [],
       tags: ["Android App", "Java", "Web Scraping"],
       link: "https://github.com/GohYuJin/SUTDApp1D",
+  },
+  {
+    name: "Whack a mole",
+    innerName: "whack-a-mole-mojo",
+    shortDescription: "Whack-a-mole game for mojo FPGA using Lucid",
+    description:
+      "Low level software component for an arcade game (whack a mole), which was built and " +
+      "graded during my time in SUTD, complete with a counter.",
+    completionDate: "2017",
+    teaserSrc: "wam-full-preview.jpg",
+    previewSrc: "wam-full-preview.jpg",
+    otherSrc: [],
+    tags: ["Hardware", "Lucid"],
+    link: "https://github.com/GohYuJin/MojoLucidWAM",
+  },
+  {
+    name: "Trash It!",
+    innerName: "trash-it",
+    shortDescription: "Game developed with Rasberry PI and vibration sensor to encourage recycling",
+    description:
+      "Kids game developed to encourage kids to recycle. Users are expected to throw recyclables into a hole from a distance " +
+      "where a moving robot will try to block it to increase the difficulty. Scores will be uploaded to social media to encourage competition. " +
+      "In this project I developed the GUI application, coded the Raspbeery PI and robot for game logic. "
+    ,
+    completionDate: "2017",
+    teaserSrc: "TrashIt.png",
+    previewSrc: "TrashItPoster.jpg",
+    otherSrc: [],
+    tags: ["Python", "App Development", "Raspberry PI", "Hardware"],
+    link: "https://github.com/GohYuJin/TrashIt",
   },
   {
       name: "SUTD Chatrooms",
@@ -101,50 +145,9 @@ export const projectsData: projectData[] = [
       tags: ["App Development", "Javascript"],
       link: "https://github.com/GohYuJin/SoftConst-Project",
   },
-  {
-    name: "Trash It!",
-    innerName: "trash-it",
-    shortDescription: "Game developed with Rasberry PI and vibration sensor to encourage recycling",
-    description:
-      "Kids game developed to encourage kids to recycle. Users are expected to throw recyclables into a hole from a distance " +
-      "where a moving robot will try to block it to increase the difficulty. Scores will be uploaded to social media to encourage competition. " +
-      "In this project I developed the GUI application, coded the Raspbeery PI and robot for game logic. "
-    ,
-    completionDate: "2017",
-    teaserSrc: "TrashIt.png",
-    previewSrc: "TrashItPoster.jpg",
-    otherSrc: [],
-    tags: ["Python", "App Development", "Raspberry PI", "Hardware"],
-    link: "https://github.com/GohYuJin/TrashIt",
-  },
-  {
-    name: "Whack a mole",
-    innerName: "whack-a-mole-mojo",
-    shortDescription: "Whack-a-mole game for mojo FPGA using Lucid",
-    description:
-      "Low level software component for an arcade game (whack a mole), which was built and " +
-      "graded during my time in SUTD, complete with a counter.",
-    completionDate: "2017",
-    teaserSrc: "wam-full-preview.jpg",
-    previewSrc: "wam-full-preview.jpg",
-    otherSrc: [],
-    tags: ["Hardware", "Lucid"],
-    link: "https://github.com/GohYuJin/MojoLucidWAM",
-  },
-  {
-    name: "Spot the difference",
-    innerName: "spot-the-difference",
-    shortDescription: "Simple spot the difference application",
-    description:
-      "Simple spot the difference application game that I helped develop for a friend to perform research" +
-      "on assessing the speed of participants in finding objects of interest.",
-    completionDate: "2022",
-    teaserSrc: "SpotTheDiff.gif",
-    previewSrc: "SpotTheDiff.gif",
-    otherSrc: [],
-    tags: ["App Development"],
-    link: "https://github.com/GohYuJin/SpotTheDiffApp",
-  },
+
+
+
 
 
 ];
