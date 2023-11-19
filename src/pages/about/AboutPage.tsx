@@ -118,16 +118,16 @@ export default function AboutPage() {
                 </Typography>
                 <Typography paragraph>
                   I studied general engineering for 1 year before selecting
-                  Information Systems as my course instead of my initial choice
+                  Information Systems as my course after realizing my proficiency and interest in programming, instead of my initial choice
                   of Electrical Engineering
                 </Typography>
                 <Typography paragraph>
                   Being a young school, the choice of specialisation in SUTD was
-                  limited to either Data Science, Game Development, or Security. I realized my 
-                  passion for data science when I worked as a teaching assistant for the
+                  limited to either Artificial Intelligence, Game Development, or Security. I realized my 
+                  passion for artificial intelligence when I worked as a teaching assistant for the
                   Masters of Science in Security by Design under the guidance of Dr. Teoh Teik Toe.
                   I was fascinated by how math was used to develop powerful predictive models
-                  and focused my degree towards strengthening my foundations in Data Science.
+                  and focused my degree towards strengthening my foundations in Artificial Intelligence.
                 </Typography>
               </CardContent>
             </Card>
@@ -160,9 +160,9 @@ export default function AboutPage() {
                   in decision making.
                 </Typography>
                 <Typography paragraph>
-                  I then moved on to become a computer vision engineer as I wanted to gain more
-                deep expertise in developing predictive models, especially from challenging
-                unstructured data.
+                  I then moved on to become a computer vision research scientist as I wanted to gain more
+                deep technical expertise in developing predictive models, gain a deeper understanding 
+		of artificial intelligence technologies and work on unstructured data which I found more challenging.
                 </Typography>
               </CardContent>
             </Card>
