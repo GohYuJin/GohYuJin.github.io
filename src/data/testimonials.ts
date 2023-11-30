@@ -31,7 +31,7 @@ export const recommendationData: recommendation[] = [
               His invaluable contributions to my PhD Studies have not only resolved technical roadblocks \
               but have also enriched my understanding of Python programming and machine learning. Without a doubt, \
               Yujin is an asset to any team and an individual whose commitment to excellence is truly commendable.",
-    image: "https://media.licdn.com/dms/image/C5603AQE0QLUXijb--w/profile-displayphoto-shrink_100_100/0/1606118615391?e=1706140800&v=beta&t=Kosl-0231wqlqh8a5GnmY8bibKnonyramOizPxe0RXQ",
+    image: "yufei_thumb.jpg",
     link: "https://www.linkedin.com/in/yu-jin-goh-737939143/details/recommendations/",
   },
   {
@@ -44,7 +44,7 @@ export const recommendationData: recommendation[] = [
               Yu Jin is also highly knowledgable about domains on Artificial intelligence and Cyber security \
               and the tools used in them. \
               Yu Jin is a pleasant individual to work with and I highly recommend him for future job prospects.",
-    image: "https://media.licdn.com/dms/image/D5603AQEI0CfWFP_hyA/profile-displayphoto-shrink_100_100/0/1680244706439?e=1706140800&v=beta&t=9mesfvxKrx_nFJILYDagvmDfppA7-fdcoQ-Eq5DFFRQ",
+    image: "edwin_thumb.jpg",
     link: "https://www.linkedin.com/in/yu-jin-goh-737939143/details/recommendations/",
   },
   {
@@ -57,7 +57,7 @@ export const recommendationData: recommendation[] = [
               Python, Tableau, Java, WEKA and R to a class of Master students. He's one of the rare people you d come\
               across that simply excels at every thing he does. \
               Someone you can definitely rely on - an asset to any team!",
-    image: "https://media.licdn.com/dms/image/C4D03AQHPIluWwlCnJQ/profile-displayphoto-shrink_100_100/0/1655404960239?e=1706140800&v=beta&t=XaLwZcJF0lDCAlMVXszsRTMM-6V0T8Jm3jGMUGpPVrc",
+    image: "graeme_thumb.jpg",
     link: "https://www.linkedin.com/in/yu-jin-goh-737939143/details/recommendations/",
   },
 ];
