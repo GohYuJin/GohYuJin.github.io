@@ -54,8 +54,8 @@ export default function TestimonialsPage() {
                 >
                   <CardHeader
                     avatar={<img
-                      alt="academic"
-                      src={item.image}
+                      alt="profile"
+                      src={getImageURL(item.image)}
                       className={css`
                         height: 48px;
                         margin-left: auto;
