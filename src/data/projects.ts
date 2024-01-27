@@ -17,22 +17,6 @@ export type projectData = {
 
 export const projectsData: projectData[] = [
   {
-      name: "Blood Alcohol Content Detection Watch",
-      innerName: "alcohol-watch",
-      shortDescription: "Blood Alcohol Content detection watch designed in SUTD",
-      description:
-          "Alcohol intoxication can put a person's life at risk. However, many are unable to determine their thresholds while drinking." +
-          "The blood alcohol detection watch helps to accurately measure when a person is at risk of alcohol poisoning and drunk driving." +
-          "In this project I designed, 3D printed the watch, coded the software and soldered the circuit into a portable and thin form factor."
-      ,
-      completionDate: "2016",
-      teaserSrc: "Watch.jpg",
-      previewSrc: "Watch-2.gif",
-      otherSrc: ["Watch-3.png"],
-      tags: ["Arduino", "Computer Aided Design", "Autodesk Fusion 360", "Hardware", "C"],
-      link: "https://github.com/GohYuJin/BAC-Watcher",
-  },
-  {
     name: "DSO Reconaissance Bot",
     innerName: "reconaissance-bot",
     shortDescription: "Computer Vision enabled reconaissance robot developed as part of SUTD's industry-capstone project with DSO.",
@@ -68,6 +52,20 @@ export const projectsData: projectData[] = [
     link: "https://github.com/GohYuJin/DL_Image_Captioning",
   },
   {
+      name: "Pneumonia Chest X-Ray Classifier",
+      innerName: "PneumoniaClassifier",
+      shortDescription: "Pneumonia Chest X-ray classification model",
+      description:
+          "This project was done to explore developing interactive web application prototypes for me to showcase deep learning demo applications through the web. I experimented with various models and training procedures for the Pneumonia Chest X-Ray datasetand achieved a 97% accuracy on the unseen test set. This included training a Vision Transformer (ViT) with Low-Rank Adaptation, ResNets and ConvNext, experimenting with various optimizers(Adam, SGD, RMSProp), learning rate schedulers (CosineAnnealing, StepLR) and data augmentation techniques. Check it out on huggingface spaces by clicking on the button below!"
+      ,
+      completionDate: "2023",
+      teaserSrc: "PneumoniaChest.gif",
+      previewSrc: "PneumoniaChest.gif",
+      otherSrc: [],
+      tags: ["Artificial Intelligence", "Computer Vision", "Python"],
+      link: "https://huggingface.co/spaces/TriEightz/PneumoniaChestXRay",
+  },
+  {
     name: "Spot the difference",
     innerName: "spot-the-difference",
     shortDescription: "Simple spot the difference application",
@@ -82,6 +80,22 @@ export const projectsData: projectData[] = [
     link: "https://github.com/GohYuJin/SpotTheDiffApp",
   },
   {
+      name: "Blood Alcohol Content Detection Watch",
+      innerName: "alcohol-watch",
+      shortDescription: "Blood Alcohol Content detection watch designed in SUTD",
+      description:
+          "Alcohol intoxication can put a person's life at risk. However, many are unable to determine their thresholds while drinking." +
+          "The blood alcohol detection watch helps to accurately measure when a person is at risk of alcohol poisoning and drunk driving." +
+          "In this project I designed, 3D printed the watch, coded the software and soldered the circuit into a portable and thin form factor."
+      ,
+      completionDate: "2016",
+      teaserSrc: "Watch.jpg",
+      previewSrc: "Watch-2.gif",
+      otherSrc: ["Watch-3.png"],
+      tags: ["Arduino", "Computer Aided Design", "Autodesk Fusion 360", "Hardware", "C"],
+      link: "https://github.com/GohYuJin/BAC-Watcher",
+  },
+  {
       name: "SUTD Events Mobile App",
       innerName: "event-scheduler-app",
       shortDescription: "SUTD Scheduler App that aggregates all events in the school displayed on one app",
@@ -94,7 +108,7 @@ export const projectsData: projectData[] = [
       teaserSrc: "LIFR-1.png",
       previewSrc: "LIFR-1.png",
       otherSrc: [],
-      tags: ["Android App", "Java", "Web Scraping"],
+      tags: ["Android App", "Java", "Web Scraping", "Mobile"],
       link: "https://github.com/GohYuJin/SUTDApp1D",
   },
   {

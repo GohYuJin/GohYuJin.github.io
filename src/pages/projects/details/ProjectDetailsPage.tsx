@@ -18,7 +18,7 @@ export default function ProjectDetailsPage() {
     return <></>;
   }
 
-  const isMobileProject = data?.tags.includes("mobile");
+  const isMobileProject = data?.tags.includes("Mobile");
   const smoothScrollUp = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
