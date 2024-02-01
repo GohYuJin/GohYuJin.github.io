@@ -63,7 +63,7 @@ export const projectsData: projectData[] = [
       previewSrc: "PneumoniaChest.gif",
       otherSrc: [],
       tags: ["Artificial Intelligence", "Computer Vision", "Python"],
-      link: "https://huggingface.co/spaces/TriEightz/PneumoniaChestXRay",
+      link: "https://gohyujin.github.io/PneumoniaChestXRay/",
   },
   {
     name: "Spot the difference",
