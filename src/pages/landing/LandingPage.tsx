@@ -38,7 +38,7 @@ export default function LandingPage() {
           Goh Yu Jin
         </Typography>
         <Typography variant="h5" margin="auto" component="h2">
-          Computer Vision Research Scientist
+          Computer Vision Research Engineer
         </Typography>
       </section>
 

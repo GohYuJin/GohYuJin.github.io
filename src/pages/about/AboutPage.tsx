@@ -26,7 +26,7 @@ export default function AboutPage() {
     {
       role: "Computer Vision Engineer",
       name: "DSO National Laboratories",
-      year: "2019 - present",
+      year: "2019 - 2024",
     },
   ];
 
@@ -160,7 +160,7 @@ export default function AboutPage() {
                   in decision making.
                 </Typography>
                 <Typography paragraph>
-                  I then moved on to become a computer vision research scientist as I wanted to gain more
+                  I then moved on to become a computer vision research engineer as I wanted to gain more
                 deep technical expertise in developing predictive models, gain a deeper understanding 
 		of artificial intelligence technologies and work on unstructured data which I found more challenging.
                 </Typography>
