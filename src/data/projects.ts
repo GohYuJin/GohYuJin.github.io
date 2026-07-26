@@ -17,6 +17,31 @@ export type projectData = {
 
 export const projectsData: projectData[] = [
   {
+      name: "Perspective Change Pipeline",
+      innerName: "perspective-change",
+      shortDescription: "Faithful 2D-to-3D perspective change pipeline built for CMU's 11-777 Multimodal Machine Learning course",
+      description:
+          "Existing text-guided image editing models are largely incapable of performing real perspective changes " +
+          "- ask them for a bird's-eye view of a scene and they either barely move the camera at all, or regenerate " +
+          "the image from scratch and lose the original content entirely. " +
+          "Instead of asking a 2D diffusion model to hallucinate a new viewpoint directly, this pipeline lifts the " +
+          "image into 3D using MoGe, a monocular depth estimator, builds a mesh from it, re-renders that mesh from " +
+          "the requested camera angle, and inpaints the regions the new viewpoint reveals that weren't visible in " +
+          "the original. " +
+          "We compared our pipeline against 7 baselines (FlowEdit, InstructPix2Pix, InfEdit, MasaCtrl and 3 RePaint " +
+          "variants) on the same viewpoint-change requests. Across every example, the baselines either barely " +
+          "changed the camera angle at all or hallucinated unrelated content, while our pipeline consistently " +
+          "produced a genuinely new viewpoint that stayed faithful to the subject, layout, and identity of the " +
+          "original scene."
+      ,
+      completionDate: "2025",
+      teaserSrc: "projects/PerspectiveSeries.gif",
+      previewSrc: "projects/PerspectiveSeries.gif",
+      otherSrc: ["projects/PerspectiveComparison.jpg", "projects/PerspectiveApproach.png"],
+      tags: ["Artificial Intelligence", "Computer Vision", "3D Vision", "Python"],
+      link: "https://github.com/GohYuJin/PerspectiveChange",
+  },
+  {
     name: "DSO Reconaissance Bot",
     innerName: "reconaissance-bot",
     shortDescription: "Computer Vision enabled reconaissance robot developed as part of SUTD's industry-capstone project with DSO.",
