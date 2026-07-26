@@ -37,7 +37,7 @@ export default function Footer({}: Props) {
         `}
       >
         <CopyrightIcon />
-        2024 - Goh Yu Jin
+        {new Date().getFullYear()} - Goh Yu Jin
       </Typography>
 
       <div>

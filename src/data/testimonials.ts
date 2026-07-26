@@ -10,6 +10,24 @@ export type recommendation = {
 
 export const recommendationData: recommendation[] = [
   {
+    name: "Liting Wen",
+    role: "MS in Computer Vision '25 | CMU SCS Robotics Institute",
+    year: "October 5, 2025",
+
+    review: "Yu Jin is one of the most proactive, reliable, and talented people I've met at CMU. He approaches \
+              every challenge with discipline, focus, and a genuine drive to do things well. Whether it's managing \
+              multiple projects, collaborating across diverse teams, or handling time-sensitive research tasks, Yu Jin \
+              always brings structure, creativity, and calm problem-solving energy to the table. \
+              \n\n \
+              What stands out most about him is his sharp insight into cutting-edge technologies and his strong \
+              technical foundation. I was deeply impressed by his mastery of artificial intelligence, robotics, and \
+              computer vision — as well as his solid programming skills demonstrated throughout program at CMU. \
+              He combines deep understanding with practical execution, turning complex ideas into working systems \
+              with remarkable clarity and precision.",
+    image: "liting_thumb.jpg",
+    link: "https://www.linkedin.com/in/gohyujin/details/recommendations/",
+  },
+  {
     name: "Yufei Li",
     role: "Doctoral Student | Mechanical & Aerospace Engineering | Nanyang Technological University",
     year: "August 31, 2023",
