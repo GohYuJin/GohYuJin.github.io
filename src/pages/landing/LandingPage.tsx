@@ -27,7 +27,7 @@ export default function LandingPage() {
       >
         <Avatar
           alt="Yu Jin Profile Pic"
-          src={getImageURL("Close_up.JPG")}
+          src={getImageURL("me/Close_up.JPG")}
           sx={{
             margin: "2rem auto 0",
             height: "10rem",

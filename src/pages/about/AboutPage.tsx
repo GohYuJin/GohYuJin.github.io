@@ -21,12 +21,22 @@ export default function AboutPage() {
     {
       role: "Operational Risk Advisory Intern (Technology & Data)",
       name: "Deloitte & Touche LLP",
-      year: "2018",
+      year: "May 2018 - Aug 2018",
     },
     {
       role: "Computer Vision Engineer",
       name: "DSO National Laboratories",
-      year: "2019 - 2024",
+      year: "Nov 2019 - Aug 2024",
+    },
+    {
+      role: "Machine Learning Engineer Intern",
+      name: "Adobe",
+      year: "May 2025 - Aug 2025",
+    },
+    {
+      role: "Machine Learning Engineer (AI Agents)",
+      name: "Adobe",
+      year: "Jan 2026 - Present",
     },
   ];
 
@@ -42,38 +52,32 @@ export default function AboutPage() {
 
         <Typography variant="h5">I'd like to think of myself as a:</Typography>
         <Typography variant="h3" component="h1">
-          Data Scientist | Problem Solver | Bboy
+          Machine Learning Engineer | Problem Solver | Bboy
         </Typography>
       </section>
 
       <section id="background-and-experience">
         <Grid container>
-          <Grid item xs={12} md={7} lg={5}>
+          <Grid item xs={12}>
             <Stack
-              spacing={-16}
+              spacing={{ xs: 3, md: -12 }}
               sx={{
                 margin: "2rem 0 1rem",
-                alignItem: "flex-start",
+                alignItems: { xs: "center", md: "flex-end" },
                 width: "100%",
               }}
             >
-              <img
-                alt="academic"
-                src={getImageURL("grad-photo.jpg")}
-                className={css`
-                  height: 60vh;
-                  margin-left: auto;
-                `}
-              />
-
               <Card
                 sx={{
                   width: "50vw",
                   maxWidth: "32rem",
                   backgroundColor: "var(--bg-card)",
                   color: "var(--text-main)",
-                  "@media screen and (max-width: 600px)": {
-                    width: "74vw",
+                  position: "relative",
+                  zIndex: 2,
+                  "@media screen and (max-width: 900px)": {
+                    width: "90vw",
+                    maxWidth: "90vw",
                   },
                 }}
               >
@@ -84,53 +88,125 @@ export default function AboutPage() {
                   <Typography paragraph>
                     Singapore University of Technology and Design, Class of 2019
                   </Typography>
-                  <Typography>
+                  <Typography paragraph>
                     Graduated with a Magna Cum Laude Honours Degree in Information Systems,
                     with a double major in Artificial Intelligence and Business Analytics
+                  </Typography>
+                  <Typography paragraph>
+                    Carnegie Mellon University, Class of 2025
+                  </Typography>
+                  <Typography>
+                    Graduated with a Master of Science in Computer Vision in December 2025
+                  </Typography>
+                </CardContent>
+              </Card>
+
+              <img
+                alt="academic"
+                src={getImageURL("me/grad-photo.jpg")}
+                className={css`
+                  height: 78vh;
+                  align-self: flex-start;
+                  @media screen and (max-width: 900px) {
+                    align-self: center;
+                    width: 80vw;
+                    height: auto;
+                  }
+                `}
+              />
+
+              <Card
+                sx={{
+                  width: "50vw",
+                  maxWidth: "40rem",
+                  backgroundColor: "var(--bg-card)",
+                  color: "var(--text-main)",
+                  position: "relative",
+                  zIndex: 2,
+                  "@media screen and (max-width: 900px)": {
+                    width: "90vw",
+                    maxWidth: "90vw",
+                  },
+                }}
+              >
+                <CardContent>
+                  <Typography paragraph>
+                    My engineering journey began here!
+                  </Typography>
+                  <Typography paragraph>
+                    I studied general engineering for 1 year before selecting
+                    Information Systems as my course after realizing my proficiency and interest in programming, instead of my initial choice
+                    of Electrical Engineering
+                  </Typography>
+                  <Typography paragraph>
+                    Being a young school, the choice of specialisation in SUTD was
+                    limited to either Artificial Intelligence, Game Development, or Security. I realized my
+                    passion for artificial intelligence when I worked as a teaching assistant for the
+                    Masters of Science in Security by Design under the guidance of Dr. Teoh Teik Toe.
+                    I was fascinated by how math was used to develop powerful predictive models
+                    and focused my degree towards strengthening my foundations in Artificial Intelligence.
+                  </Typography>
+                </CardContent>
+              </Card>
+
+              <img
+                alt="cmu graduation"
+                src={getImageURL("me/cmu-grad.jpg")}
+                className={css`
+                  height: 65vh;
+                  align-self: flex-start;
+                  @media screen and (max-width: 900px) {
+                    align-self: flex-start;
+                    width: 70vw;
+                    height: auto;
+                  }
+                `}
+              />
+              <img
+                alt="cmu scs graduation"
+                src={getImageURL("me/scs-grad.jpg")}
+                className={css`
+                  height: 65vh;
+                  align-self: flex-start;
+                  transform: translateX(19rem);
+                  @media screen and (max-width: 900px) {
+                    align-self: flex-end;
+                    width: 60vw;
+                    height: auto;
+                    transform: none;
+                  }
+                `}
+              />
+
+              <Card
+                sx={{
+                  width: "50vw",
+                  maxWidth: "40rem",
+                  backgroundColor: "var(--bg-card)",
+                  color: "var(--text-main)",
+                  position: "relative",
+                  zIndex: 2,
+                  "@media screen and (max-width: 900px)": {
+                    width: "90vw",
+                    maxWidth: "90vw",
+                  },
+                }}
+              >
+                <CardContent>
+                  <Typography paragraph>
+                    After several years as a Computer Vision Engineer at DSO National Laboratories, I was
+                    exposed to the true breadth of knowledge the field demands: classical image processing,
+                    graphics, SLAM, 3D/4D vision, and more. It made me realize a real gap in my foundations, since my
+                    undergraduate studies had been heavily focused on machine learning.
+                  </Typography>
+                  <Typography>
+                    This drove me to pursue a Master of Science in Computer Vision at Carnegie Mellon
+                    University, where I graduated in December 2025, rounding out my technical foundations
+                    across the full breadth of the field.
                   </Typography>
                 </CardContent>
               </Card>
             </Stack>
-          </Grid>
-          <Grid
-            item
-            xs={12}
-            md={5}
-            lg={7}
-            display="flex"
-            alignItems="center"
-            justifyContent="flex-end"
-          >
-            <Card
-              sx={{
-                color: "var(--text-main)",
-                backgroundColor: "var(--bg-card)",
-                width: "100%",
-                margin: "0 0 1rem 4rem",
-                "@media screen and (max-width: 600px)": {
-                  margin: "0",
-                },
-              }}
-            >
-              <CardContent>
-                <Typography paragraph>
-                  My engineering journey began here!
-                </Typography>
-                <Typography paragraph>
-                  I studied general engineering for 1 year before selecting
-                  Information Systems as my course after realizing my proficiency and interest in programming, instead of my initial choice
-                  of Electrical Engineering
-                </Typography>
-                <Typography paragraph>
-                  Being a young school, the choice of specialisation in SUTD was
-                  limited to either Artificial Intelligence, Game Development, or Security. I realized my 
-                  passion for artificial intelligence when I worked as a teaching assistant for the
-                  Masters of Science in Security by Design under the guidance of Dr. Teoh Teik Toe.
-                  I was fascinated by how math was used to develop powerful predictive models
-                  and focused my degree towards strengthening my foundations in Artificial Intelligence.
-                </Typography>
-              </CardContent>
-            </Card>
           </Grid>
 
           <Grid
@@ -164,6 +240,10 @@ export default function AboutPage() {
                 deep technical expertise in developing predictive models, gain a deeper understanding 
 		of artificial intelligence technologies and work on unstructured data which I found more challenging.
                 </Typography>
+                <Typography paragraph>
+                  During my Masters, I interned at Adobe from May to August 2025, and returned full-time in
+                  January 2026 as a Machine Learning Engineer working on AI agents.
+                </Typography>
               </CardContent>
             </Card>
           </Grid>
@@ -177,7 +257,7 @@ export default function AboutPage() {
             >
               <img
                 alt="work-pictures"
-                src={getImageURL("Deloitte-Intern.jpg")}
+                src={getImageURL("me/Deloitte-Intern.jpg")}
                 className={css`
                   height: 50vh;
                   margin-right: auto;
@@ -185,10 +265,18 @@ export default function AboutPage() {
               />
               <img
                 alt="work-pictures2"
-                src={getImageURL("DSO.jpg")}
+                src={getImageURL("me/DSO.jpg")}
                 className={css`
                 height: 50vh;
                 margin-right: auto;
+                `}
+              />
+              <img
+                alt="work-pictures3"
+                src={getImageURL("me/Adobe_intern.jpg")}
+                className={css`
+                height: 44vh;
+                align-self: flex-start;
                 `}
               />
 
@@ -198,6 +286,8 @@ export default function AboutPage() {
                   maxWidth: "36rem",
                   backgroundColor: "var(--bg-card)",
                   color: "var(--text-main)",
+                  position: "relative",
+                  zIndex: 2,
                   "@media screen and (max-width: 600px)": {
                     width: "74vw",
                   },
@@ -274,7 +364,7 @@ export default function AboutPage() {
             >
               <img
                 alt="bboy photos"
-                src={getImageURL("bboy-1.jpg")}
+                src={getImageURL("me/bboy-1.jpg")}
                 className={css`
                   width: 70%;
                   margin-left: auto;
@@ -303,7 +393,7 @@ export default function AboutPage() {
             >
               <img
                 alt="bboy-2"
-                src={getImageURL("bboy-2.jpg")}
+                src={getImageURL("me/bboy-2.jpg")}
                 className={css`
                   height: 22rem;
                   width: auto;
@@ -316,7 +406,7 @@ export default function AboutPage() {
               />
               <img
                 alt="bboy-3"
-                src={getImageURL("bboy-3.jpg")}
+                src={getImageURL("me/bboy-3.jpg")}
                 className={css`
                   height: 22rem;
                   width: auto;

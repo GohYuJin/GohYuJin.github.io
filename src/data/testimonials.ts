@@ -24,7 +24,7 @@ export const recommendationData: recommendation[] = [
               computer vision — as well as his solid programming skills demonstrated throughout program at CMU. \
               He combines deep understanding with practical execution, turning complex ideas into working systems \
               with remarkable clarity and precision.",
-    image: "liting_thumb.jpg",
+    image: "thumbnails/liting_thumb.jpg",
     link: "https://www.linkedin.com/in/gohyujin/details/recommendations/",
   },
   {
@@ -49,7 +49,7 @@ export const recommendationData: recommendation[] = [
               His invaluable contributions to my PhD Studies have not only resolved technical roadblocks \
               but have also enriched my understanding of Python programming and machine learning. Without a doubt, \
               Yujin is an asset to any team and an individual whose commitment to excellence is truly commendable.",
-    image: "yufei_thumb.jpg",
+    image: "thumbnails/yufei_thumb.jpg",
     link: "https://www.linkedin.com/in/yu-jin-goh-737939143/details/recommendations/",
   },
   {
@@ -62,7 +62,7 @@ export const recommendationData: recommendation[] = [
               Yu Jin is also highly knowledgable about domains on Artificial intelligence and Cyber security \
               and the tools used in them. \
               Yu Jin is a pleasant individual to work with and I highly recommend him for future job prospects.",
-    image: "edwin_thumb.jpg",
+    image: "thumbnails/edwin_thumb.jpg",
     link: "https://www.linkedin.com/in/yu-jin-goh-737939143/details/recommendations/",
   },
   {
@@ -75,7 +75,7 @@ export const recommendationData: recommendation[] = [
               Python, Tableau, Java, WEKA and R to a class of Master students. He's one of the rare people you d come\
               across that simply excels at every thing he does. \
               Someone you can definitely rely on - an asset to any team!",
-    image: "graeme_thumb.jpg",
+    image: "thumbnails/graeme_thumb.jpg",
     link: "https://www.linkedin.com/in/yu-jin-goh-737939143/details/recommendations/",
   },
 ];

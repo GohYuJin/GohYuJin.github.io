@@ -205,7 +205,7 @@ const topnavStyle = css`
   justify-content: space-between;
   padding: 1rem 1rem;
   background-color: var(--bg-main);
-  z-index: 1;
+  z-index: 10;
 `;
 
 const navItemStyle = css`

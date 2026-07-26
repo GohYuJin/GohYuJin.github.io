@@ -16,7 +16,7 @@ export default function Logo() {
         {/* <span className={logoStyle}>CG</span> */}
         <Avatar
           alt="Goh Yu Jin"
-          src={getImageURL("Close_up.JPG")}
+          src={getImageURL("me/Close_up.JPG")}
           sx={{
             padding: "0.25rem",
             borderRadius: "50%",
